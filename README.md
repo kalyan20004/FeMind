@@ -92,7 +92,7 @@ FeMind is heavily optimized for easy deployment. The React frontend is pre-built
 
 ### Prerequisites:
 - Python 3.10+
-- A valid Gemini API Key
+
 
 ### Step-by-Step:
 1. Clone the repository:
@@ -101,24 +101,17 @@ FeMind is heavily optimized for easy deployment. The React frontend is pre-built
    cd FeMind
    ```
 
-2. Create a `.env` file in the `backend/` folder and add your Gemini API Key:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
 
-3. Install the dependencies:
+
+2. Install the dependencies:
    ```bash
    pip install -r backend/requirements.txt
    ```
 
-4. Launch the entire application (Frontend + Backend):
+3. Launch the entire application (Frontend + Backend):
    ```bash
    python local_deploy.py
    ```
 
-5. Open your web browser and navigate to:
+4. Open your web browser and navigate to:
    **http://localhost:8000**
-
----
-
-*Built with ❤️ for the Hackathon.*
