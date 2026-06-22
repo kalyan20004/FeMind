@@ -1,0 +1,48 @@
+BF FAN 12 — BLAST FURNACE COOLING FAN
+Model: CFD-1800-HT | Manufacturer: IndoFan Engineering
+Installation Year: 2019 | Last Overhaul: 2023
+
+NORMAL OPERATING PARAMETERS:
+- Vibration (RMS): 2.0–2.3 mm/s
+- Bearing Temperature: 60–70°C (alarm at 85°C, trip at 95°C)
+- Operating Pressure: 1.1–1.3 bar
+- Motor Current: 43–47 A
+- Operating Speed: 1470–1490 RPM
+
+BEARING SPECIFICATIONS:
+- Drive End: SKF 6315-2RS1 (Deep Groove Ball Bearing)
+- Non-Drive End: SKF 6313-2RS1
+- Lubrication: Shell Gadus S2 V220 2, 15g per point, monthly
+- Bearing Change Interval: 18,000 hours or 2 years, whichever earlier
+
+FAULT SIGNATURES AND DIAGNOSIS:
+1. Bearing Wear (Most Common)
+   Symptoms: Vibration > 3.5 mm/s, Temperature rise 5–10°C above baseline,
+             High-frequency noise (metallic), RPM instability
+   Cause: Inadequate lubrication, contamination, overloading
+   Action: Vibration trending analysis, grease check, bearing inspection
+
+2. Imbalance
+   Symptoms: 1X vibration spike, vibration proportional to speed,
+             No temperature change
+   Cause: Blade erosion, material buildup on impeller
+   Action: Dynamic balancing, blade inspection
+
+3. Misalignment
+   Symptoms: 2X vibration spike, axial vibration high,
+             Coupling wear
+   Cause: Thermal expansion, foundation shift
+   Action: Laser alignment check
+
+MAINTENANCE INTERVALS:
+- Weekly: Visual inspection, lubrication check, vibration spot check
+- Monthly: Full vibration measurement, oil analysis
+- Quarterly: Coupling inspection, foundation bolt check
+- Annual: Full overhaul, bearing replacement as needed
+
+SPARE PARTS (CRITICAL STOCK):
+- SKF 6315-2RS1 Bearing: Keep 2 in stock (Lead time: 14 days if OOS)
+- SKF 6313-2RS1 Bearing: Keep 2 in stock
+- Shaft seal kit: 1 set
+- Coupling spider: 2 units
+- Motor terminal box cover: 1 unit

@@ -1,0 +1,48 @@
+INCIDENT REPORT: BF-FAN-12-INC-2024-003
+Date: March 14, 2024 | Reported by: R. Sharma, Sr. Technician
+
+EQUIPMENT: BF Fan 12
+FAULT TYPE: Drive End Bearing Failure
+SEVERITY: High — Production stoppage 6.5 hours
+
+TIMELINE:
+- 22:00: Routine check — vibration at 2.8 mm/s (elevated, no alarm)
+- 02:30: Vibration alarm activated at 4.2 mm/s
+- 02:45: Fan tripped on high vibration (>5.0 mm/s)
+- 03:00: Engineer dispatched — confirmed bearing failure
+- 06:00: Bearing replacement completed
+- 08:30: Fan restarted — vibration normal 2.1 mm/s
+
+ROOT CAUSE:
+Primary: SKF 6315 bearing inner race fatigue failure
+Contributing: Lubrication interval exceeded by 3 weeks (monthly schedule missed)
+Contributing: Previous vibration spike (Feb 2024) not investigated
+
+PRODUCTION IMPACT:
+- Duration: 6.5 hours
+- Blast Furnace production loss: ~650 tonnes
+- Estimated cost: ₹1.8 crores
+
+CORRECTIVE ACTIONS:
+1. Implemented monthly lubrication reminder in SAP PM
+2. Set vibration alarm threshold from 4.5 to 3.8 mm/s
+3. Mandatory follow-up inspection after any vibration spike > 3.0 mm/s
+
+LESSONS LEARNED:
+Vibration trending over 7 days gave clear warning. If engineer had
+analyzed the trend (2.1→2.4→2.6→2.8 mm/s over 10 days), bearing
+replacement could have been planned — saving ~5 hours downtime.
+
+---
+
+INCIDENT REPORT: PUMP-CW-03-INC-2023-011
+Date: November 2, 2023 | Reported by: K. Patel
+
+EQUIPMENT: Cooling Water Pump CW-03
+FAULT TYPE: Mechanical Seal Failure
+SEVERITY: Medium — Controlled shutdown
+
+ROOT CAUSE: Cavitation due to low suction head (valve partially closed)
+ACTION: Seal replacement + suction valve inspection
+DOWNTIME: 4 hours
+PRODUCTION IMPACT: Minimal — backup pump activated

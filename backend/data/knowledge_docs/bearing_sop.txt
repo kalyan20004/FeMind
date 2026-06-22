@@ -1,0 +1,52 @@
+SOP-MECH-047: BEARING REPLACEMENT PROCEDURE — CENTRIFUGAL FANS
+Revision: 4 | Effective Date: Jan 2025
+
+SAFETY PREREQUISITES:
+1. LOTO (Lock Out / Tag Out) procedure must be completed before starting
+2. Wear PPE: Safety glasses, heat-resistant gloves, steel-toed boots
+3. Minimum 2 technicians required
+4. Inform shift supervisor before starting
+5. Estimated time: 4–6 hours
+
+STEP-BY-STEP PROCEDURE:
+
+PHASE 1 — ISOLATION (30 minutes)
+Step 1: Raise Work Order in SAP PM module
+Step 2: Notify control room to shut down BF Fan 12
+Step 3: Wait for complete stop — verify RPM = 0 on panel
+Step 4: Apply LOTO on MCC panel (Panel BF-12-MCC-A)
+Step 5: Verify zero energy with multimeter
+Step 6: Place "Under Maintenance" tag on equipment
+
+PHASE 2 — DISASSEMBLY (90 minutes)
+Step 7: Remove fan casing inspection covers (8 bolts, M12)
+Step 8: Disconnect coupling — mark alignment reference before removal
+Step 9: Remove bearing housing end cover (Drive End: 6 bolts M16)
+Step 10: Heat bearing puller to 80°C, apply to bearing outer race
+Step 11: Pull bearing with mechanical puller — do not strike
+Step 12: Inspect shaft for scoring, corrosion, keyway damage
+Step 13: Clean bearing housing with lint-free cloth + isopropyl alcohol
+Step 14: Measure housing bore (should be 160.000–160.025 mm)
+
+PHASE 3 — INSTALLATION (90 minutes)
+Step 15: Heat new SKF 6315-2RS1 bearing in induction heater to 110°C
+Step 16: Install bearing on shaft within 2 minutes of heating
+Step 17: Allow to cool, verify seating (should be flush, 0 gap)
+Step 18: Apply Shell Gadus S2 V220 2 grease — 15g, pack cavity 60%
+Step 19: Refit bearing housing cover, torque to 85 Nm
+Step 20: Reconnect coupling — verify alignment within 0.05 mm
+
+PHASE 4 — COMMISSIONING (60 minutes)
+Step 21: Remove LOTO, notify control room
+Step 22: Trial run at 50% load for 30 minutes
+Step 23: Measure vibration (should be < 2.3 mm/s)
+Step 24: Measure bearing temperature (should stabilize below 70°C)
+Step 25: If OK, ramp to 100% load
+Step 26: Record measurements in equipment log
+Step 27: Close Work Order in SAP PM
+
+SPARE PARTS REQUIRED:
+- 1 × SKF 6315-2RS1 (Drive End)
+- 1 × SKF 6313-2RS1 (Non-Drive End, replace both simultaneously)
+- Gasket set (Part No. IF-BF12-GSK-001)
+- Shell Gadus S2 V220 2 grease (300g tube)
