@@ -1,6 +1,6 @@
 # 🚀 FeMind: Agentic AI Command Center for Predictive Maintenance
 
-![FeMind Dashboard](docs/pictures1.png)
+
 
 ## 📌 Overview
 In modern heavy industries like steel manufacturing, traditional threshold-based alerts are not enough. When critical machinery (like a Blast Furnace Fan) vibrates abnormally, engineers don't just need an alert—they need to know the root cause, the cascading impact on other machines, the repair procedure, and the financial cost of failure.
