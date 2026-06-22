@@ -97,7 +97,7 @@ FeMind is heavily optimized for easy deployment. The React frontend is pre-built
 ### Step-by-Step:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/FeMind.git
+   git clone https://github.com/kalyan20004/FeMind.git
    cd FeMind
    ```
 
