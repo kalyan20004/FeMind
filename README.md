@@ -7,7 +7,7 @@ In modern heavy industries like steel manufacturing, traditional threshold-based
 
 **FeMind** replaces static alerts with a fully autonomous, **Multi-Agent AI Command Center**. It ingests live multivariate SCADA sensor data, detects anomalies in real-time using Machine Learning, and deploys specialized AI Agents to diagnose, evaluate, and plan maintenance operations.
 
-![Workflow Architecture](docs/pictures2.png)
+![Workflow Architecture](docs/Picture2.png)
 
 ---
 
@@ -16,37 +16,37 @@ In modern heavy industries like steel manufacturing, traditional threshold-based
 ### 1. 🔍 Real-Time Anomaly Detection & RUL Prediction
 - **IsolationForest:** Continuously monitors live multivariate sensor streams (vibration, temperature, pressure, rpm) to detect subtle anomalies before they become critical.
 - **XGBoost:** Dynamically predicts the Remaining Useful Life (RUL) of degrading assets in real-time.
-- ![RUL Prediction](docs/pictures3.png)
+- ![RUL Prediction](docs/Picture3.png)
 
 ### 2. 📉 Failure Cascade Graph AI
 - Uses `NetworkX` graph algorithms to mathematically predict the "blast radius" of a failure.
 - When an anomaly is detected, the Cascade Agent maps exactly which downstream conveyor belts or induction motors will be forced to shut down next.
-- ![Cascade Graph](docs/pictures4.png)
+- ![Cascade Graph](docs/Picture4.png)
 
 ### 3. 💰 ROI Cost Engine
 - Engineering decisions are business decisions. The Cost Engine dynamically calculates the exact Expected Financial Value.
 - It proves the ROI of maintenance by showing the exact Rupees saved by stopping production for planned maintenance today versus risking a catastrophic run-to-failure tomorrow.
-- ![Cost Engine](docs/pictures5.png)
+- ![Cost Engine](docs/Picture5.png)
 
 ### 4. 🤖 Agentic RAG Copilot (Gemini & LangGraph)
 - Powered by `LangGraph` and `Gemini 2.5 Flash`, grounded securely on internal ISO manuals and SOPs using a `ChromaDB` vector store.
 - Engineers can query the copilot for step-by-step repair procedures specific to the exact machine and fault type.
-- ![Copilot RAG](docs/pictures6.png)
+- ![Copilot RAG](docs/Picture6.png)
 
 ### 5. 📸 Visual AI Diagnosis
 - Upload a photo of a broken part or anomalous gauge.
 - The Vision Agent instantly processes the image and diagnoses physical wear-and-tear or damage.
-- ![Vision Agent](docs/pictures7.png)
+- ![Vision Agent](docs/Picture7.png)
 
 ### 6. 📄 Automated ISO PDF Reporting
 - Eliminates paperwork by autonomously compiling sensor data, financial risk, and AI maintenance plans into structured, downloadable PDF reports.
-- ![Reporting](docs/pictures8.png)
+- ![Reporting](docs/Picture8.png)
 
 ---
 
 ## 🛠 Tech Stack
 
-![Tech Stack](docs/pictures9.png)
+![Tech Stack](docs/Picture9.png)
 
 - **Frontend:** React, Vite, Tailwind CSS, Lucide React, Recharts
 - **Backend:** FastAPI, Python, Uvicorn, SQLAlchemy
